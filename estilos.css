@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Poppins&display=swap');
+
+/*INICIO DE SESION*/
+body{
+    background-image: url(imagenes/fondoForm.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+#contenedorCompleto{
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio{
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgba(66, 66, 66, 0.411);
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#inicio h1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -35px;
+}
+
+#inicio p{
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.campos{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 500;
+}
+
+#acceder{
+    background-color: #444679;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+#registro{
+    background-color: #444679;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#sesion{
+    background-color: white;
+    border-radius: 50px;
+    color: #444679;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#icono{
+    margin-top: 30px;
+}
+
+#sesion:hover{
+    background-color: #7275c9;
+    color: white;
+}
+
+#registro:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+    color: black;
+}
+
+#acceder:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+    color: black;
+}
+
+/*ENCABEZADO*/
+
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    width: 100%;
+    background-color: #7275c9;
+}
+
+#logo h1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -35px;
+    color: white;
+    margin: 0px;
+
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #444679;
+}
+
+.seccion{
+    margin: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.seccion a{
+    color: white;
+    text-decoration: none;
+}
+
+.seccion a:hover{
+    border-bottom: 2px white solid;
+    padding-bottom: 3px;
+}
+
+/*PÁGINA PRINCIPAL*/
+body{
+    background-color: #d6d8f5;
+}
+#contenedorUsuario{
+    margin: -8px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contMostrar{
+    flex-direction: column;
+    vertical-align: top;
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    color: white;
+}
+
+#tabla{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+#nombre{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#descripcion{
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30px;
+    align-items: center;
+}
+
+#jugar{
+    width: 100%;
+    text-align:center;
+    padding: 20px;
+}
+
+#jugar a{
+    margin: auto;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #444679;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#jugar a:hover{
+    background-color: #4446799a;
+}
+
+
+#imagen{
+    margin: auto;
+    text-align: center;
+}
+
+#contImg{
+    width: 500px;
+    height: 300px;
+}
+
+#contImg img{
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------*/
+
+#contenedorCompleto2{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedorCompleto2 .campos{
+    width: 65%;
+}
+
+#icono{
+    width: 100%;
+    text-align: right;
+}
+
+#home{
+    width: 60px;
+    height: 50px;
+    margin-right: 20px;
+}
